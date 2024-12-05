@@ -42,7 +42,7 @@ cd simcity-simulation
 
 2. Compile using g++:
 ```bash
-g++ -o simcity main.cpp Region.cpp Cell.cpp ResidentialSystem.cpp CommercialSystem.cpp IndustrialSystem.cpp Statistics.cpp
+g++ *.cpp -o simcity 
 ```
 
 Or if you have make installed:
